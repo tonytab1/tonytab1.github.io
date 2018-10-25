@@ -10,10 +10,11 @@ html {
 }
  a {
      text-decoration:none;
-    color:#FF0F00
+    color:#1993b4;
 }
  a:hover {
-     text-decoration:underline
+     text-decoration:underline;
+     color:#23b7df;
 }
  hr{
     border:0;

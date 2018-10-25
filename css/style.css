@@ -5,9 +5,10 @@ html {
 }
  body {
      margin:0;
-    font-family:"Inconsolata";
+    font-family:"Inconsolata", sans-serif;
     height:100%
 }
+
  a {
      text-decoration:none;
     color:#1993b4;
@@ -15,6 +16,9 @@ html {
  a:hover {
      text-decoration:underline;
      color:#23b7df;
+}
+.currentpage {
+  color:#f0842b;
 }
  hr{
     border:0;
@@ -24,7 +28,7 @@ html {
 }
  #author-name{
     font-size:30px;
-    color:#272727;
+    color:#1a1d1f;
     display:inline-block
 }
  .navbar{

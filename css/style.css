@@ -38,8 +38,8 @@ html {
  .navbar-ul{
     display:inline-block;
     margin:0;
-    padding:5px 0 5px 0;
-    margin-left:20px
+    padding:30px 0 5px 0;
+    margin-left:0px
 }
  .nav-list{
     list-style-type:none;
@@ -129,7 +129,7 @@ html {
     height:200px;
     width:200px;
     position:relative;
-    margin:-10px 0 0 15px;
+    margin:10px 0 0 15px;
     float:right;
     border-radius:50%
 }

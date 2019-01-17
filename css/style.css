@@ -87,6 +87,7 @@ html {
     }
     .content .profile-picture{
       display: block;
+      float:none;
       margin-left: auto;
       margin-right: auto;
     }

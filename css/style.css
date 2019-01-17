@@ -147,11 +147,6 @@ html {
    }
 }
 
- @media (max-width: 480px){
-    .content .profile-picture img{
-        margin-top:-5px
-    }
-}
  .content img{
     text-align:center;
     width:100%

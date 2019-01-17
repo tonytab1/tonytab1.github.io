@@ -65,38 +65,7 @@ html {
     max-width:700px;
     margin:auto
 }
- @media (max-width: 800px) {
-    .container{
-        max-width:600px;
-        transition:0.3s ease all
-    }
-     .just-comments{
-        max-width:600px;
-        margin:auto
-    }
-}
- @media (max-width: 650px){
-    .container{
-        max-width:83%
-    }
-     .navbar-ul{
-        margin-top:5px
-    }
-    .just-comments{
-        max-width:83%
-    }
-    .content .profile-picture{
-      float:none;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-}
- @media (max-width: 580px){
-    #author-name{
-        display:inline-block
-    }
-}
+
  .content a:hover{
     text-decoration:underline
 }
@@ -143,6 +112,39 @@ html {
     padding:0;
     margin:0
 }
+@media (max-width: 800px) {
+   .container{
+       max-width:600px;
+       transition:0.3s ease all
+   }
+    .just-comments{
+       max-width:600px;
+       margin:auto
+   }
+}
+@media (max-width: 650px){
+   .container{
+       max-width:83%
+   }
+    .navbar-ul{
+       margin-top:5px
+   }
+   .just-comments{
+       max-width:83%
+   }
+   .content .profile-picture{
+     float:none;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+   }
+}
+@media (max-width: 580px){
+   #author-name{
+       display:inline-block
+   }
+}
+
  @media (max-width: 480px){
     .content .profile-picture img{
         margin-top:-5px

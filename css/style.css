@@ -85,6 +85,11 @@ html {
     .just-comments{
         max-width:83%
     }
+    .content .profile-picture{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
 }
  @media (max-width: 580px){
     #author-name{

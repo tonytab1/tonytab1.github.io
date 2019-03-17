@@ -1,0 +1,120 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Viewport Settings */
+@media screen and (min-width: 950px) {
+  #tom {
+    font-size: 22em;
+    letter-spacing: 10px;
+  }
+#turturo {
+  font-size: 6em;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 949px) {
+  #tom {
+    font-size: 15em;
+    letter-spacing: 10px;
+  }
+#turturo {
+  font-size: 3em;
+  letter-spacing: 10px;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 599px) {
+  #tom {
+    font-size: 11em;
+    letter-spacing: 10px;
+  }
+#turturo {
+  font-size: 2em;
+  letter-spacing: 10px;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 449px) {
+  #tom {
+    font-size: 7em;
+    letter-spacing: 10px;
+  }
+#turturo {
+  font-size: 1em;
+  letter-spacing: 10px;
+  }
+}
+/* End Viewport Settings */
+
+.sign {
+  color: #fff;
+  padding: 0px;
+}
+
+.w800{
+  font-style: normal;
+  font-weight: 800;
+}
+
+.w600 {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.w400i {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.slide1, .slide2, .slide3 {
+  position: relative;
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide1 {
+  background-color: #ec3832;
+}
+
+.slide2 {
+  background-color: #fff;
+}
+
+.slide3 {
+  background-color: #005795;
+}
+
+.content {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+#dontate {
+  position: sticky;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones
+@media only screen and (max-device-width: 1024px) {
+  .slide1, .slide2, .slide3 {
+    background-attachment: scroll;
+  }
+}
+*/
